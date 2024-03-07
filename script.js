@@ -3,7 +3,7 @@ const screen1 = document.querySelector(".screen1")
 const screen2 = document.querySelector(".screen2")
 const btnTry = document.querySelector("#btnTry")
 const btnReset = document.querySelector("#btnReset")
-const randomNumber = Math.round(Math.random() * 10)
+let randomNumber = generateRandomNumber()
 let xAttempts = 1
 
 //eventos
@@ -33,8 +33,13 @@ function handleTryClick(event) {
     screen2.classList.remove("hide")
 
     screen2.querySelector("h2").innerText = `acertou em ${xAttempts} tentativas`
+    randomNumber = generateRandomNumber()
   }
 
   inputNumber.value = ""
   xAttempts++
+}
+
+function generateRandomNumber() {
+  return Math.round(Math.random() * 10)
 }
