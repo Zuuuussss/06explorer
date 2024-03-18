@@ -25,12 +25,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - Git e Github
 - Figma
+- Java script
 
 ## 💻 Projeto
 
-Um projeto feito para estudos sobre a responsividade e grid introduzindo pequenas animações para mobile e desktop.
+Um projeto feito para estudos sobre comportamento do Java script introduzido em um pequeno jogo de adivinhação.
 
-- [Acesse o projeto finalizado, online](https://zuuuussss.github.io/05explorer/)
+- [Acesse o projeto finalizado, online](https://zuuuussss.github.io/jogoadv/)
 
 Esse projeto está sob a licença MIT.
 
